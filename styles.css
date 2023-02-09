@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+}
+
+.person-info {
+    display: flex;
+}
+
+.row {
+    display: flex;
+}
+
+footer {
+    margin: 0 auto;
+}
