@@ -11,8 +11,9 @@ header {
     display: flex;
 }
 
-.row {
+section {
     display: flex;
+    flex-wrap: wrap;
 }
 
 footer {
