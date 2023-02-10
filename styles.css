@@ -1,21 +1,92 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
 }
 
 header {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.title {
+    width: 30%;
+}
+
+.about-us {
+    width: 50%;
+    justify-content: space-between;
 }
 
 .person-info {
     display: flex;
+    height: 625px;
+    margin-bottom: 5rem;
+}
+
+.person-info div.container {
+    display: flex;
+}
+
+.bottom {
+    align-items: end;
 }
 
 section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 footer {
+    font-family: Montserrat, serif;
     margin: 0 auto;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 36px;
+}
+
+.about-us, h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+}
+
+.job-role {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    margin-left: 0;
+    align-self: start;
+}
+
+h3 {
+    margin-top: 0.5em;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 1240px) {
+    img {
+        width: 333px;
+        height: 477px;
+    }
+
+    body {
+        padding: 5rem 16.5rem 0;
+    }
+}
+
+@media screen and (max-width: 1239px) {
+    img {
+        width: 300px;
+        height: 429px;
+    }
+
+    body {
+        padding: 5rem 3rem 0;
+    }
 }
